@@ -146,22 +146,22 @@ section {
 
 .swiper-slide--two {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("img/kely.png") no-repeat 50% 50% / cover;
+    url("img/kely.jpg") no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--three {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("img/prostata.png") no-repeat 50% 50% / cover;
+    url("img/prostata.jpg") no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--four {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("img/matana.png") no-repeat 50% 50% / cover;
+    url("img/matana.jpg") no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--five {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("img/lazer\ \ marn\ .png") no-repeat 50% 50% / cover;
+    url("img/lazer\ \ marn_.jpg") no-repeat 50% 50% / cover;
 }
 
 .swiper-3d .swiper-slide-shadow-left,
