@@ -273,3 +273,8 @@ footer {
 a {
   text-decoration: none;
 }
+
+video{
+  height: 100px;
+  width: 150px;
+}
