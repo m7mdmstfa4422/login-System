@@ -1,0 +1,42 @@
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 1px 1px 20px 0px #ffffff3b;
+    border-radius: 10px;
+    color: white;
+}
+
+input,
+button {
+    border-radius: 20px !important;
+    border: solid white 2px !important;
+    
+}
+
+input{
+    color: rgb(0, 0, 0) !important;
+}
+button{
+    color: white !important;
+}
+
+button:hover {
+    background-color: #0a1a23 !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.775), rgba(0, 0, 0, 0.364)),
+        url(../../asstes/img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}

@@ -10,21 +10,28 @@
     <link rel="stylesheet" href="./asstes/css/all.min.css">
     <link rel="stylesheet" href="./asstes/css/bootstrap.min.css">
     <link rel="stylesheet" href="./asstes/css/MyStyle.css">
-    <title>Login</title>
+    <title>Sign up</title>
 </head>
 
 <body class="">
-    <div class=" box container p-5  text-center ">
+
+
+    <div class=" box container p-5 text-center ">
+
         <h1 class="pb-4">Smart Login System </h1>
-        <div class="form">
-            <input id="LoginEmail" class="col-12 my-2 p-2 form-control" type="email" placeholder="enter your email">
-            <input id="LoginPassword" class="col-12 my-2 p-2 form-control" type="password"
+        <div class="form ">
+            <input oninput="validateAllInput(this)" id="NameInput" class="col-12 my-2 p-2 form-control" type="text"
+                placeholder="enter your Name">
+            <input oninput="validateAllInput(this)" id="EmailInput" class="col-12 my-2 p-2 form-control" type="email"
+                placeholder="enter your email">
+            <input oninput="validateAllInput(this)" id="PasswordInput" class="col-12 my-2 p-2 form-control" type="password"
                 placeholder="enter your password">
-            <h6 id="LoginMessage" class="text-center text-success"></h6>
-            <button onclick="loginAccount()" type="submit" class="btn mt-2 col-12">Login</button>
-            <h6 class="my-3"> Don’t have an account? <span> <a href="singUp.html" class="">Sign Up</a></span> </h6>
+            <p id="status"> </p>
+            <button onclick="addAccount()" type="submit" class="btn  col-12">Sign Up</button>
+            <h6 class="my-3"> Don’t have an account? <span> <a href="index.html" class="">Login</a></span> </h6>
         </div>
     </div>
+
 
     <script src="./asstes/js/bootstrap.bundle.min.js"></script>
     <script src="./asstes/js/js.js"></script>
